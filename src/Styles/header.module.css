@@ -1,0 +1,23 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #f55a5a;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 3rem;
+  width: 600px;
+  box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.767);
+}
+
+header img {
+  height: 2.2rem;
+}
+
+header > p {
+  color: white;
+  font-weight: 600;
+  font-size: 14.46px;
+}

@@ -1,0 +1,27 @@
+footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0bfbf;
+  font-size: 12px;
+  height: 2.5rem;
+  width: 600px;
+  /* box-shadow: -1px -1px 3px 1px rgba(128, 128, 128, 0.767); */
+}
+a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+a:visited {
+  color: black;
+}
+
+.gitLogo {
+  height: 70%;
+}

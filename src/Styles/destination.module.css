@@ -1,0 +1,64 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'img  location'
+    'img description';
+  width: 470px;
+}
+.image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  grid-area: img;
+  margin-right: 20px;
+}
+
+.locationContainer {
+  grid-area: location;
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.icon {
+  height: 1rem;
+  padding-bottom: 2px;
+}
+.country {
+  font-size: 10.24px;
+  font-weight: 400;
+}
+.location,
+.location:visited {
+  height: fit-content;
+  color: #918e9b;
+  justify-content: start;
+  padding-left: 10px;
+  font-size: 10.24px;
+  font-weight: 400;
+}
+
+.descriptionContainer {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700px;
+  padding-bottom: 10px;
+}
+
+.date {
+  font-size: 10.24;
+  font-weight: 700;
+}
+.description {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
