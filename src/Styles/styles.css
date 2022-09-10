@@ -1,10 +1,10 @@
 * {
   padding: 0%;
   margin: 0%;
+  font-size: 20px;
 }
 html {
-  width: 100vw;
-  height: fit-content;
+  height: 100vh;
 }
 
 body {
@@ -23,13 +23,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: fit-content;
+  width: 30rem;
   /* box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.767); */
 }
 
 .destinations-list {
-  padding: 20px 0px 20px 0px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 20px;
+  padding: 20px 20px 20px 20px;
 }

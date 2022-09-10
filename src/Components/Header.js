@@ -4,9 +4,9 @@ import styles from '../Styles/header.module.css';
 
 const Header = () => {
   return (
-    <header className={styles}>
-      <img src={logo} alt='CV' className='header--logo' />
-      <p className='header--text para'>My travel Journal</p>
+    <header className={styles.header}>
+      <img src={logo} alt='CV' className={styles.headerLogo} />
+      <p className={styles.headerText}>My travel Journal</p>
     </header>
   );
 };

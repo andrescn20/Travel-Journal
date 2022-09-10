@@ -4,15 +4,25 @@ import styles from '../Styles/footer.module.css';
 const Footer = () => {
   return (
     <footer className={styles}>
-      <a href='./' className='footerItem'>
+      <a href='https://github.com/andrescn20' className={styles.creator}>
         <p>
-          Created by: <span className='boldText'> andrescn20 </span>
+          Created by: <strong> andrescn20 </strong>
         </p>
         <img
           className={styles.gitLogo}
           src='https://cdn1.iconfinder.com/data/icons/logotypes/32/github-48.png'
           alt='gitLogo'
         />
+      </a>
+      <a
+        className={styles.atribution}
+        href='https://www.flaticon.com/free-icons/travel'
+        title='travel icons'
+      >
+        <p>
+          Travel icons created by{' '}
+          <span className={styles.span}>Freepik - Flaticon</span>
+        </p>
       </a>
     </footer>
   );

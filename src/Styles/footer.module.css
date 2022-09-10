@@ -4,11 +4,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c0bfbf;
-  font-size: 12px;
-  height: 2.5rem;
-  width: 600px;
-  /* box-shadow: -1px -1px 3px 1px rgba(128, 128, 128, 0.767); */
+  background-color: #f55a5a;
+  height: 2rem;
+  width: 30rem;
+  padding: 5px;
 }
 a {
   display: flex;
@@ -17,11 +16,28 @@ a {
   height: 100%;
   width: 100%;
   justify-content: center;
+  text-decoration: none;
 }
-a:visited {
+
+.creator > p {
+  color: white;
+  font-size: 0.7rem;
+}
+strong {
+  font-size: 1rem;
+  color: black;
+}
+.atribution > p {
+  color: white;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.span {
+  font-size: 0.7rem;
+  font-weight: bold;
   color: black;
 }
 
 .gitLogo {
-  height: 70%;
+  height: 2rem;
 }

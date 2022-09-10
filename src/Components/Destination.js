@@ -3,10 +3,21 @@ import style from '../Styles/destination.module.css';
 import locationIcon from '../placeholder.png';
 
 export default function Destination(props) {
-  const { image, icon, country, location, title, date, description } = style;
+  const {
+    imageContainer,
+    image,
+    icon,
+    country,
+    location,
+    title,
+    date,
+    description,
+  } = style;
   return (
     <div className={style.container}>
-      <img className={image} alt={props.name} src={props.imageUrl}></img>
+      <div className={imageContainer}>
+        <img className={image} alt={props.name} src={props.imageUrl}></img>
+      </div>
       <div className={style.locationContainer}>
         <img className={icon} alt='icon' src={locationIcon}></img>
         <p className={country}>{props.location.toUpperCase()}</p>
